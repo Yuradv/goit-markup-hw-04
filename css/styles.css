@@ -465,6 +465,7 @@ img {
 }
 
 .link-icon {
+  display: flex;
   width: 16px;
   height: 12px;
   margin-top: 34px;
@@ -473,4 +474,18 @@ img {
 
 .link-icon:hover {
   fill: var(--accent-color);
+}
+
+.section-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--team-bcg-color);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.feature-icon {
+  width: 70px;
+  height: 70px;
 }
