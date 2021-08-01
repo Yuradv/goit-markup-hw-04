@@ -118,10 +118,14 @@ ul {
 .contacts-nav {
   display: flex;
   margin-left: auto;
+  justify-content: center;
+  align-items: center;
 }
 .contacts-nav-item {
   display: block;
   margin-right: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts-nav-item:last-child {
@@ -132,6 +136,8 @@ ul {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  justify-content: center;
+  align-items: center;
 
   color: var(--secondary-txt-color);
   font-style: normal;
@@ -282,6 +288,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 /* Footer */
@@ -454,26 +461,23 @@ img {
 }
 
 /* icons */
+
 .icon-mail {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-phone {
   width: 10px;
   height: 16px;
-}
-
-.link-icon {
-  display: flex;
-  width: 16px;
-  height: 12px;
-  margin-top: 34px;
-  fill: var(--secondary-txt-color);
-}
-
-.link-icon:hover {
-  fill: var(--accent-color);
+  margin-right: 10px;
+  fill: currentColor;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-icon {
@@ -484,8 +488,88 @@ img {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 .feature-icon {
   width: 70px;
   height: 70px;
+}
+
+.team-icon-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* padding: 0 32px 30px 32px; */
+}
+
+.team-links {
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.team-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  margin-right: 10px;
+}
+
+/* clients */
+.client-list {
+  display: flex;
+}
+
+.client-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  font-weight: 700;
+}
+
+.client-cell {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+
+.client-cell:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.client-cell:last-child {
+  margin-right: 0;
+}
+
+.client-link {
+  padding: 0;
+  border: none;
+  width: 106px;
+  height: 60px;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+
+.client-icon:hover {
+  fill: var(--accent-color);
 }
