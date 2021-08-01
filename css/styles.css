@@ -390,6 +390,8 @@ img {
 
 /* Portfolio examples */
 .example-title {
+  margin-top: 20px;
+  margin-left: 24px;
   color: var(--main-txt-color);
   font-weight: 700;
   font-size: 18px;
@@ -401,6 +403,8 @@ img {
   color: var(--secondary-txt-color);
   font-size: 16px;
   line-height: 30px;
+  margin-left: 24px;
+  padding-bottom: 20px;
 }
 
 /* Filter buttons */
@@ -455,19 +459,8 @@ img {
 }
 
 /* Card */
-.card-thumb {
-  /* outline: 1px solid red; */
-  display: block;
-  width: 370px;
-  height: 274px;
-}
 
 .card-content {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -576,13 +569,10 @@ img {
 }
 
 .client-link {
-  width: 106px;
-  height: 60px;
-
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
 }
 
 .client-icon {
