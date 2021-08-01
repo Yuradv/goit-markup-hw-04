@@ -613,8 +613,6 @@ img {
 
 .footer-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-item {
@@ -629,9 +627,6 @@ img {
   margin-right: 0px;
 }
 
-.footer-link {
-}
-
 .footer-icon {
   width: 20px;
   height: 20px;
@@ -643,15 +638,11 @@ img {
   background-color: var(--accent-color);
 }
 
-.footer-adress {
-  margin-right: 70px;
-}
-
-.footer {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-social {
-  margin-right: 0px;
+  margin-left: 70px;
+}
+
+.footer-adress {
+  display: flex;
+  justify-content: baseline;
 }
