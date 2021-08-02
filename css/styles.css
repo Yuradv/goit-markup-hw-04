@@ -560,10 +560,6 @@ img {
   margin-right: 30px;
 }
 
-.client-cell:hover {
-  border: 1px solid var(--accent-color);
-}
-
 .client-cell:last-child {
   margin-right: 0;
 }
@@ -574,6 +570,11 @@ img {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 16px;
+}
+
+.client-cell:hover {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .client-icon {
@@ -619,7 +620,6 @@ img {
 .footer-link:hover,
 .footer-link:active {
   background: var(--accent-color);
-  border-radius: 50%;
 }
 
 .footer-icon {
